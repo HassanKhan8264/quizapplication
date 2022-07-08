@@ -1,0 +1,109 @@
+body{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.quiz{
+    /* border: 1px solid red; */
+    border: 1px solid red;
+    width: 30%;
+    text-align: center;
+    margin: 50px;
+    height: 600px;
+    /* display: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+  }
+  .start{
+    border: 1px solid black;
+    width: 90%;
+    height: 500px;
+    /* display: block; */
+   
+   
+  }
+  .start button{
+    margin-top: 50px;
+  }
+
+.button {
+    border-radius: 4px;
+    background-color: white;
+    border: 2px solid #e7e7e7;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ img{
+  width: 200px;
+  height: 120px;
+ }
+ .info{
+  border: 1px solid red;
+  height: 150px;
+  text-align: left;
+}
+.question{
+  margin: 20px;
+  border-bottom: 1px solid gray;
+
+}
+.time{
+  margin: 20px;
+  border-bottom: 1px solid gray;
+
+}
+.passing{
+  margin: 20px;
+  border-bottom: 1px solid gray;
+
+}
+#right{
+  margin-left: 250px;
+  color: green;
+}
+#left{
+  font-size: 1rem;
+  font-weight: 1000;
+}
+.questions{
+  border: 1px solid red;
+  width: 60%;
+  height: 600px;
+  margin: 50px auto;
+  display: none;
+
+}
