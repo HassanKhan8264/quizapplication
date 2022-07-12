@@ -101,7 +101,7 @@ body{
 }
 .questions{
   border: 1px solid red;
-  width: 60%;
+  width: 30%;
   height: 600px;
   margin: 50px auto;
   display: none;
@@ -117,6 +117,11 @@ body{
   align-items: center;
   
 }
-#nextbtn0{
-  /* display: none; */
+.firstq{
+  border: 1px solid red;
+  height:50px;
+  margin-top:40px;
+  text-indent: 0px;
+  display: flex;
+  align-items: center;
 }

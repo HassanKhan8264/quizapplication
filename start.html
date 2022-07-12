@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="start.css">
 </head>
+
 <body>
     <div class="quiz">
         <div class="start">
@@ -26,7 +28,7 @@
                     <span id="right">60%</span>
                 </div>
             </div>
-            <button class="button" id="btn0" onClick="tics('0')">
+            <button class="button" id="btn0" onClick="tics('zero')">
                 <span>Start Quiz</span>
             </button>
         </div>
@@ -34,19 +36,18 @@
     </div>
     <div class="questions" id="tab0">
         <div id="timer">
-            
+
         </div>
-        fiorst tab hai ye
-        <button id="nextbtn0" onClick="next('0')">next</button>
+        <div class="firstq">Q1) What is my name</div>
+        <div class="option1"><span>Hasan <input type="radio" name="sample" id="q1"></span></div>
+        <div class="option2"><span>ali<input type="radio" name="smaple" id="q2"></span></div>
+        <div class="option3"><span>khan<input type="radio" name="sample" id="q3"></span></div>
+        <div class="option4"><span>mubeen<input type="radio" name="smaple" id="q4"></span></div>
+        <button onClick="check()">check</button>
+
     </div>
-    <div class="questions" id="nexttab0">
-        <div id="timer">
-            
-        </div>
-        ghghghg next tab hai ye
-    </div>
-    <!-- <button id="nextbtn1" onClick="next('1')">next</button> -->
 
 </body>
 <script src="start.js"></script>
+
 </html>
